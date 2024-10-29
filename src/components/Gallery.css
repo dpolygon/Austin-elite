@@ -1,0 +1,28 @@
+.kidsImages {
+    object-fit: cover;
+    height: 22em;
+    width: 22em;
+    padding-right: 12px;
+    border-radius: 22px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+    border-radius: 16px;    
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #CAF0F8; /* Thumb color */
+    border-radius: 16px;
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #4591b9; /* Thumb color on hover */
+}
+
+/* For Firefox */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+    scrollbar-color: #0077B6;
+}
